@@ -11,7 +11,7 @@ Utilizar o npm install ou yarn install.
 
 ## Rodando o Projeto
 
-Após a instalação deverá alterar o arquivo ".env.example" => .env e alterar as variaveis de ambiente.Feito isso poderá rodar o yarn knex migrate:latest para implementação das tabelas em seu banco de dados.
+Após a instalação deverá alterar o arquivo.env alterarando as variaveis de ambiente.Feito isso poderá rodar o yarn knex migrate:latest para implementação das tabelas em seu banco de dados.
 
 Agora poderá utilizar o yarn dev para rodar o projeto
 
