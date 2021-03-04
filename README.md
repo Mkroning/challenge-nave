@@ -20,3 +20,5 @@ Agora poderá utilizar o yarn dev para rodar o projeto
 De inicio eu queria resolver utilizando typescript, mais precisamente com Nest.js.
 
 Não tinha conhecimento sobre o YUP para fazer validações, nisso obtive um pouco de dificuldade.
+
+Tive dificuldade, nos seguintes erros. Ao colocar imports ele não encontrava o path, mas ao colocar o mouse por cima ele mostrava exatamente o caminho
