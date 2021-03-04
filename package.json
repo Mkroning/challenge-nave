@@ -2,24 +2,25 @@
   "name": "backend-nave",
   "version": "1.0.0",
   "description": "Projeto teste para vaga de back end da empresa NAVE",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "Mathus Kroning dos Santos",
   "license": "ISC",
   "dependencies": {
-    "@types/jsonwebtoken": "^8.5.0",
     "bcrypt": "^5.0.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "knex": "^0.21.19",
-    "pg": "^8.5.1"
+    "pg": "^8.5.1",
+    "sucrase": "^3.17.1",
+    "yup": "^0.32.9"
   },
   "devDependencies": {
-    "@types/yup": "^0.29.11",
     "nodemon": "^2.0.7"
   }
 }

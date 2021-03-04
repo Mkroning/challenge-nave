@@ -3,9 +3,9 @@ const {
   HOST,
   PASSWORD,
   DATABASE
-} = require('./src/Config/envConfig');
+} = require('./src/Config/env');
 
-module.exports = {
+const knexfile = {
   development: {
     client: 'postgres',
     connection: {
@@ -20,3 +20,5 @@ module.exports = {
     useNullAsDefault: true,
   },
 };
+
+export default knexfile;
